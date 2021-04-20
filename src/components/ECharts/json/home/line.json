@@ -1,0 +1,69 @@
+{
+  "title": {
+    "top": 17,
+    "left": 35,
+    "textStyle": {
+      "color": "#000",
+      "fontSize": 16
+    }
+  },
+  "tooltip": {
+    "transitionDuration": 0
+  },
+  "grid": {
+    "top": 72,
+    "right": 41,
+    "bottom": 47,
+    "left": 78
+  },
+  "xAxis": {
+    "type": "category",
+    "offset": 10,
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#78758C",
+        "width": 1,
+        "type": "solid",
+        "fontSize": 12
+      }
+    },
+    "axisTick": {
+      "show": false
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#78758C",
+        "width": 1,
+        "type": "solid",
+        "fontSize": 12
+      }
+    },
+    "splitLine": {
+      "lineStyle": {
+        "type": "dotted"
+      }
+    },
+    "axisTick": {
+      "show": false
+    }
+  },
+  "series": [
+    {
+      "type": "line",
+      "smooth": false,
+      "symbolSize": 8,
+      "itemStyle": {
+        "normal": {
+          "color": "#2510D7",
+          "lineStyle": "#2510D7"
+        },
+        "type": "dotted"
+      }
+    }
+  ]
+}

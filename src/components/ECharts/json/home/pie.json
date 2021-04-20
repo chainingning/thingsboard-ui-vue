@@ -1,0 +1,28 @@
+{
+  "title": {
+    "text": "设备区域分布",
+    "top": 17,
+    "left": 22,
+    "textStyle": {
+      "color": "#000",
+      "fontSize": 16
+    }
+  },
+  "tooltip": {
+    "trigger": "item",
+    "show": true,
+    "transitionDuration": 0
+  },
+  "legend": {
+    "show": false
+  },
+  "series": [
+    {
+      "type": "pie",
+      "radius": [50, 70],
+      "label": {
+        "formatter": "{b}"
+      }
+    }
+  ]
+}

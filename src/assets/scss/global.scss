@@ -1,0 +1,26 @@
+@import './mixin.scss';
+@import './variable.scss';
+@import './element-ui.scss';
+
+.center {
+  @include center();
+}
+
+.clearfix {
+  @include clearfix();
+}
+
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+%iconfont {
+  font-family: 'iconfont' !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

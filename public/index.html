@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title></title>
+    <% if (process.env.NODE_ENV === 'production') { %>
+      <!-- 生产环境 -->
+      <link rel="stylesheet" href="./iconfont/iconfont.css">
+    <% } else { %>
+      <!-- 开发环境 -->
+      <link rel="stylesheet" href="//at.alicdn.com/t/font_1910414_8qhtxna0rni.css">
+    <% } %>
+    <script src="./config/IPconfig.js"></script>
+    <script>
+      document.title = window.PROJECT_TITLE
+    </script>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+<script type="text/javascript">
+  (function(){
+    const baseApiGis = window.BASE_API_BONENG_GIS + '?v=1.0&appSecret='+ window.BNMAP_APPSECRET +'&appKey=' + window.BNMAP_APPKEY
+    document.write("<script type='text/javascript' src='"+ baseApiGis + "'><\/scr" + "ipt>");
+  })();
+</script>

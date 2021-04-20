@@ -1,0 +1,220 @@
+%input-placeholder {
+  input::-webkit-input-placeholder {
+    line-height: 20px;
+    font-size: 14px;
+    color: #CACACA;
+  }
+  input::-moz-input-placeholder {
+    line-height: 20px;
+    font-size: 14px;
+    color: #CACACA;
+  }
+  input::-ms-input-placeholder {
+    line-height: 20px;
+    font-size: 14px;
+    color: #CACACA;
+  }
+}
+%el-form {
+  .el-form-item {
+    margin-bottom: 24px;
+    .el-form-item__label {
+      line-height: 17px;
+      font-size: 12px;
+      color: #686868;
+      margin-bottom: 4px;
+    }
+    .el-form-item__content {
+      line-height: 1;
+      .el-input {
+        @extend %input-placeholder;
+        .el-input__inner {
+          height: 34px;
+          border: none;
+          background-color: #F5F6FA;
+          color: #4E4E4E;
+          border-radius: 4px;
+        }
+      }
+      .el-select {
+        width: 100%;
+      }
+      .el-textarea {
+        @extend %input-placeholder;
+        .el-textarea__inner {
+          height: 118px;
+          border: none;
+          background-color: #F5F6FA;
+          color: #4E4E4E;
+          border-radius: 4px;
+        }
+      }
+      .el-date-editor {
+        background-color: #F5F6FA;
+        .el-range-input {
+          background-color: #F5F6FA;
+          color: #4E4E4E;
+        }
+        .el-input__icon {
+          color: #6993FF;
+        }
+      }
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.el-message-box {
+  width: 580px;
+  border-radius: 18px;
+  .el-message-box__header {
+    padding: 50px 0 23px 29px;
+    .el-message-box__title {
+      line-height: 28px;
+      span {
+        color: #000;
+        font-size: 22px;
+        font-family: PingFangSC-Medium;
+        font-weight: bolder;
+      }
+    }
+    .el-message-box__headerbtn {
+      display: none;
+    }
+  }
+  .el-message-box__content {
+    padding: 0 29px 39px 29px;
+    border-bottom: 1px solid #D5D5D5;
+    .el-message-box__container {
+      .el-message-box__message {
+        p {
+          color: #595959;
+          font-size: 14px;
+          font-family: PingFangSC-Regular;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+  .el-message-box__btns {
+    padding: 24px 42px 14px 0;
+    .el-button {
+      padding: 12px 42px;
+    }
+  }
+}
+
+.el-dropdown-menu {
+  padding: 11px 0;
+  border-radius: 10px;
+  border: none;
+  &.iconfont {
+    .el-dropdown-menu__item {
+      background-color: #fff;
+      color: #202224;
+      font-size: 14px;
+      line-height: 38px;
+      i {
+        color: #6993FF;
+        font-size: 18px;
+      }
+      &:hover {
+        background-color: #6993FF;
+        color: #fff;
+        i {
+          color: #fff;
+        }
+      }
+      i {
+        @extend %iconfont;
+      }
+    }
+  }
+}
+
+.el-button {
+  border-radius: 6px;
+  &.el-button--default {
+    border-color:#E6E6E6;
+    background-color: #E6E6E6;
+    span {
+      color: #000000;
+    }
+  }
+  &.el-button--primary {
+    border-color: #6993FF;
+    background-color: #6993FF;
+    span {
+      color: #FFFFFF;
+    }
+  }
+  &.el-button--text {
+    span {
+      color: #3259BE;
+    }
+  }
+}
+
+.el-tabs {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: none;
+  .el-tabs__header {
+    background-color: #fff;
+    height: 48px;
+    .el-tabs__nav-wrap {
+      .el-tabs__item {
+        height: 50px;
+        line-height: 48px;
+        font-size: 16px;
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        color: #5E5E5E;
+        &.is-active {
+          color: #000;
+          position: relative;
+          text-shadow: 1px 0 0 currentColor; // 处理fontWeight防止防抖
+          &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background-color: #6993FF;
+          }
+        }
+      }
+    }
+  }
+  .el-tabs__content {
+    .el-tab-pane {
+      height: 100%;
+      .button-container {
+        .wx-button {
+          margin-right: 24px;
+          margin-bottom: 40px;
+          &:last-of-type {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    padding: 25px 28px 27px 28px;
+    height: calc(100% - 52px);
+    overflow: auto;
+  }
+}
+
+.el-pagination {
+  .el-pager {
+    .number {
+      &.active {
+        background-color: #6993FF !important;
+      }
+    }
+  }
+}

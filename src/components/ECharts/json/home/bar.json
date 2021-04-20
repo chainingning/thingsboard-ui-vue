@@ -1,0 +1,96 @@
+{
+  "title": {
+    "text": "调用次数",
+    "top": 17,
+    "left": 35,
+    "textStyle": {
+      "color": "#000",
+      "fontSize": 16
+    }
+  },
+  "tooltip": {
+    "trigger": "axis",
+    "axisPointer": {
+      "type": "shadow"
+    },
+    "transitionDuration": 0
+  },
+  "dataZoom": [
+    {
+      "show": true,
+      "realtime": true,
+      "start": 0,
+      "end": 70
+    },
+    {
+      "type": "inside",
+      "realtime": true,
+      "start": 0,
+      "end": 70,
+      "zoomOnMouseWheel": false
+    }
+  ],
+  "grid": {
+    "bottom": 80
+  },
+  "xAxis": {
+    "type": "category",
+    "axisTick": {
+      "alignWithLabel": true,
+      "show": false
+    },
+    "axisLabel": {
+      "interval": 0
+    },
+    "offset": 10,
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#78758C",
+        "width": 1,
+        "type": "solid",
+        "fontSize": 12
+      }
+    }
+  },
+  "yAxis": {
+    "type": "value",
+    "axisLine": {
+      "show": true,
+      "lineStyle": {
+        "color": "#78758C",
+        "width": 1,
+        "type": "solid",
+        "fontSize": 12
+      }
+    },
+    "axisTick": {
+      "show": false
+    },
+    "splitLine": {
+      "lineStyle": {
+        "type": "dotted"
+      }
+    }
+  },
+  "series": [
+    {
+      "type": "bar",
+      "barWidth": 15,
+      "itemStyle": {
+        "normal": {
+          "color": "#FFCC4F",
+          "label": {
+            "show": true,
+            "position": "top",
+            "textStyle": {
+              "fontSize": 16,
+              "color": "#6993FF"
+            }
+          },
+          "barBorderRadius": [42, 42, 0, 0]
+        }
+      }
+    }
+  ]
+}

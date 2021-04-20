@@ -1,0 +1,282 @@
+{
+  "id": "1910414",
+  "name": "IOT",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "首都机场物联网",
+  "glyphs": [
+    {
+      "icon_id": "13614079",
+      "name": "重启",
+      "font_class": "zhongqi",
+      "unicode": "e652",
+      "unicode_decimal": 58962
+    },
+    {
+      "icon_id": "6367291",
+      "name": "R",
+      "font_class": "-R",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "10451680",
+      "name": "基本折线图",
+      "font_class": "-line",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "1174374",
+      "name": "time",
+      "font_class": "-time",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "1049941",
+      "name": "下载",
+      "font_class": "-xiazai",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "4933430",
+      "name": "修改",
+      "font_class": "-xiugai",
+      "unicode": "e765",
+      "unicode_decimal": 59237
+    },
+    {
+      "icon_id": "12097695",
+      "name": "缩小",
+      "font_class": "-suoxiao",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "12323755",
+      "name": "全屏",
+      "font_class": "-quanping",
+      "unicode": "e655",
+      "unicode_decimal": 58965
+    },
+    {
+      "icon_id": "9874537",
+      "name": "KHCFDC_头像 ",
+      "font_class": "-avatar",
+      "unicode": "e6de",
+      "unicode_decimal": 59102
+    },
+    {
+      "icon_id": "11399565",
+      "name": "撤销",
+      "font_class": "che-xiao",
+      "unicode": "e637",
+      "unicode_decimal": 58935
+    },
+    {
+      "icon_id": "16393720",
+      "name": "add",
+      "font_class": "-add",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "16393721",
+      "name": "remove",
+      "font_class": "-remove",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "16393722",
+      "name": "refresh",
+      "font_class": "-refresh",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "16393004",
+      "name": "guize",
+      "font_class": "-guize",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "16393005",
+      "name": "daoru",
+      "font_class": "-daoru",
+      "unicode": "e619",
+      "unicode_decimal": 58905
+    },
+    {
+      "icon_id": "16367884",
+      "name": "dui",
+      "font_class": "-dui",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "5831258",
+      "name": "错",
+      "font_class": "-cuo",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "15737879",
+      "name": "search",
+      "font_class": "-search",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "15737880",
+      "name": "transformation",
+      "font_class": "-transformation",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "15737881",
+      "name": "rulechain",
+      "font_class": "-rule-chain",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "15737882",
+      "name": "action",
+      "font_class": "-action",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "15737883",
+      "name": "enrichment",
+      "font_class": "-enrichment",
+      "unicode": "e614",
+      "unicode_decimal": 58900
+    },
+    {
+      "icon_id": "15737884",
+      "name": "filter",
+      "font_class": "-filter",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "15737885",
+      "name": "external",
+      "font_class": "-external",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "15732953",
+      "name": "check",
+      "font_class": "-check",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "15588898",
+      "name": "devices",
+      "font_class": "-devices",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "15588899",
+      "name": "online-device",
+      "font_class": "-online-device",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "15586673",
+      "name": "dashboards",
+      "font_class": "-dashboards",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "15586674",
+      "name": "device-model",
+      "font_class": "-device-model",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "15586677",
+      "name": "entity-views",
+      "font_class": "-entity-views",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "15586678",
+      "name": "customers",
+      "font_class": "-customers",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "15586680",
+      "name": "device-alarm",
+      "font_class": "-device-alarm",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "15586681",
+      "name": "assets",
+      "font_class": "-assets",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "15586682",
+      "name": "add-device",
+      "font_class": "-add-device",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "15586683",
+      "name": "widgets-bundles",
+      "font_class": "-widgets-bundles",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "15586684",
+      "name": "alarm",
+      "font_class": "-alarm",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "15586686",
+      "name": "home",
+      "font_class": "-home",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "15586687",
+      "name": "offline-device",
+      "font_class": "-offline-device",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "15586688",
+      "name": "audit-logs",
+      "font_class": "-audit-logs",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    }
+  ]
+}

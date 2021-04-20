@@ -1,0 +1,26 @@
+{
+  "title": {
+    "text": "设备通讯类型分布",
+    "top": 17,
+    "left": 22,
+    "textStyle": {
+      "color": "#000",
+      "fontSize": 16
+    }
+  },
+  "tooltip": {
+    "trigger": "item",
+    "show": true,
+    "transitionDuration": 0
+  },
+  "series": [
+    {
+      "type": "pie",
+      "radius": [50, 70],
+      "center": ["50%", "50%"],
+      "label": {
+        "formatter": "{b}"
+      }
+    }
+  ]
+}
